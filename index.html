@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KK SAMPLE</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class=" container header-container">
+            <div class="logo">
+                <h1>KKHomeRealty</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Buy</a></li>
+                    <li><a href="#">Rent</a></li>
+                    <li><a href="#">Sell</a></li>
+                    <li><a href="#">Mortgage</a></li>
+                    <li><a href="#">Agent finder</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="slideshow-container" data-index="0">
+        <div class="slide">
+            <img src="/e6143c5ae1fbb270f8385ecf20b3a671-cc_ft_576.webp" alt="image 1" class="active">
+            <div class="text">Best Home Realty Agency to work with</div>
+        </div>
+        <div class="slide">
+            <img src="/caba916332c16d9e9851118c766136fb-cc_ft_576.webp" alt="image 2">
+            <div class="text">Our support team is available 24/7 to help you with any questions or concerns.</div>
+        </div>
+        <div class="slide">
+            <img src="/c99a84de55fe850c96bcd89297765586-cc_ft_960.webp" alt="image 3">
+            <div class="text">Common sense, not just a slogan. We are the best home realty agency to work with</div>
+        </div>
+        <div class="slide">
+            <img src="/48ee780085342f473dc9244fac05756e-cc_ft_960.webp" alt="image 4">
+            <div class="text">You've found the right place, definitely nothing to worry about...</div>
+        </div>
+        <div class="slide">
+            <img src="/aebb3fdf23213fdf84b0f45b6d6aaa81-cc_ft_576.webp" alt="image 5">
+            <div class="text">Our Team as a whole is dedicated to helping you find your dream home</div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094</button>
+        <button class="next" onclick="changeSlide(1)">&#10095</button>
+    </div>
+    <div>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+    <section class="search-section">
+        <div class="container search-container">
+            <input type="text" placeholder="Enter a City, address, or Postal code" id="search-input" />
+            <button id="search-btn">Search</button>
+        </div>
+    </section>
+    <section class="content-section">
+        <div class="container">
+            <div class="listings">
+
+                <div class="property">
+                    <div class="carousel" data-index="0">
+                        <div class="carousel-images">
+                            <img src="/48ee780085342f473dc9244fac05756e-cc_ft_960.webp" alt="Family Home Image 1"
+                                class="active">
+                            <img src="/aebb3fdf23213fdf84b0f45b6d6aaa81-cc_ft_576.webp" alt="Family Home Image 2">
+                            <img src="/c99a84de55fe850c96bcd89297765586-cc_ft_960.webp" alt="Family Home Image 3">
+                        </div>
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
+                    <div class="property-details">
+                        <a href="#">
+                            <h3>Beautiful Family Home</h3>
+                        </a>
+                        <p>3 Beds • 2 Baths • 1,550 sqft</p>
+                        <p class="price">$450000</p>
+                    </div>
+                </div>
+                <div class="property">
+                    <div class="carousel" data-index="0">
+                        <div class="carousel-images">
+                            <img src="/48ee780085342f473dc9244fac05756e-cc_ft_960.webp" alt="Family Home Image 1"
+                                class="active">
+                            <img src="/aebb3fdf23213fdf84b0f45b6d6aaa81-cc_ft_576.webp" alt="Family Home Image 2">
+                            <img src="/c99a84de55fe850c96bcd89297765586-cc_ft_960.webp" alt="Family Home Image 3">
+                        </div>
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
+                    <div class="property-details">
+                        <a href="#">
+                            <h3>Beautiful Family Home</h3>
+                        </a>
+                        <p>3 Beds • 2 Baths • 1,550 sqft</p>
+                        <p class="price">$450000</p>
+                    </div>
+                </div>
+                <div class="property">
+                    <div class="carousel" data-index="0">
+                        <div class="carousel-images">
+                            <img src="/48ee780085342f473dc9244fac05756e-cc_ft_960.webp" alt="Family Home Image 1"
+                                class="active">
+                            <img src="/aebb3fdf23213fdf84b0f45b6d6aaa81-cc_ft_576.webp" alt="Family Home Image 2">
+                            <img src="/c99a84de55fe850c96bcd89297765586-cc_ft_960.webp" alt="Family Home Image 3">
+                        </div>
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
+
+                    <div class="property-details">
+                        <a href="#">
+                            <h3>Beautiful Family Home</h3>
+                        </a>
+                        <p>3 Beds • 2 Baths • 1,550 sqft</p>
+                        <p class="price">$450000</p>
+                    </div>
+
+                </div>
+                <div class="property">
+                    <div class="carousel" data-index="0">
+                        <div class="carousel-images">
+                            <img src="/48ee780085342f473dc9244fac05756e-cc_ft_960.webp" alt="Family Home Image 1"
+                                class="active">
+                            <img src="/aebb3fdf23213fdf84b0f45b6d6aaa81-cc_ft_576.webp" alt="Family Home Image 2">
+                            <img src="/c99a84de55fe850c96bcd89297765586-cc_ft_960.webp" alt="Family Home Image 3">
+                        </div>
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
+
+                    <div class="property-details">
+                        <a href="#">
+                            <h3>Beautiful Family Home</h3>
+                        </a>
+                        <p>3 Beds • 2 Baths • 1,550 sqft</p>
+                        <p class="price">$450000</p>
+                    </div>
+
+                </div>
+                <div class="property">
+                    <div class="carousel" data-index="0">
+                        <div class="carousel-images">
+                            <img src="/48ee780085342f473dc9244fac05756e-cc_ft_960.webp" alt="Family Home Image 1"
+                                class="active">
+                            <img src="/aebb3fdf23213fdf84b0f45b6d6aaa81-cc_ft_576.webp" alt="Family Home Image 2">
+                            <img src="/c99a84de55fe850c96bcd89297765586-cc_ft_960.webp" alt="Family Home Image 3">
+                        </div>
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
+
+                    <div class="property-details">
+                        <a href="#">
+                            <h3>Beautiful Family Home</h3>
+                        </a>
+                        <p>3 Beds • 2 Baths • 1,550 sqft</p>
+                        <p class="price">$450000</p>
+                    </div>
+
+                </div>
+                <div class="property">
+                    <div class="carousel" data-index="0">
+                        <div class="carousel-images">
+                            <img src="/48ee780085342f473dc9244fac05756e-cc_ft_960.webp" alt="Family Home Image 1"
+                                class="active">
+                            <img src="/aebb3fdf23213fdf84b0f45b6d6aaa81-cc_ft_576.webp" alt="Family Home Image 2">
+                            <img src="/c99a84de55fe850c96bcd89297765586-cc_ft_960.webp" alt="Family Home Image 3">
+                        </div>
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
+
+                    <div class="property-details">
+                        <a href="#">
+                            <h3>Beautiful Family Home</h3>
+                        </a>
+                        <p>3 Beds • 2 Baths • 1,550 sqft</p>
+                        <p class="price">$450000</p>
+                    </div>
+
+                </div>
+                <div class="property">
+                    <div class="carousel" data-index="0">
+                        <div class="carousel-images">
+                            <img src="/48ee780085342f473dc9244fac05756e-cc_ft_960.webp" alt="Family Home Image 1"
+                                class="active">
+                            <img src="/aebb3fdf23213fdf84b0f45b6d6aaa81-cc_ft_576.webp" alt="Family Home Image 2">
+                            <img src="/c99a84de55fe850c96bcd89297765586-cc_ft_960.webp" alt="Family Home Image 3">
+                        </div>
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
+
+                    <div class="property-details">
+                        <a href="#">
+                            <h3>Beautiful Family Home</h3>
+                        </a>
+                        <p>3 Beds • 2 Baths • 1,550 sqft</p>
+                        <p class="price">$450000</p>
+                    </div>
+
+                </div>
+                <div class="property">
+                    <div class="carousel" data-index="0">
+                        <div class="carousel-images">
+                            <img src="/48ee780085342f473dc9244fac05756e-cc_ft_960.webp" alt="Family Home Image 1"
+                                class="active">
+                            <img src="/aebb3fdf23213fdf84b0f45b6d6aaa81-cc_ft_576.webp" alt="Family Home Image 2">
+                            <img src="/c99a84de55fe850c96bcd89297765586-cc_ft_960.webp" alt="Family Home Image 3">
+                        </div>
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
+
+                    <div class="property-details">
+                        <a href="#">
+                            <h3>Beautiful Family Home</h3>
+                        </a>
+                        <p>3 Beds • 2 Baths • 1,550 sqft</p>
+                        <p class="price">$450000</p>
+                    </div>
+
+                </div>
+                <div class="property">
+                    <div class="carousel" data-index="0">
+                        <div class="carousel-images">
+                            <img src="/48ee780085342f473dc9244fac05756e-cc_ft_960.webp" alt="Family Home Image 1"
+                                class="active">
+                            <img src="/aebb3fdf23213fdf84b0f45b6d6aaa81-cc_ft_576.webp" alt="Family Home Image 2">
+                            <img src="/c99a84de55fe850c96bcd89297765586-cc_ft_960.webp" alt="Family Home Image 3">
+                        </div>
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
+
+                    <div class="property-details">
+                        <a href="#">
+                            <h3>Beautiful Family Home</h3>
+                        </a>
+                        <p>3 Beds • 2 Baths • 1,550 sqft</p>
+                        <p class="price">$450000</p>
+                    </div>
+
+                </div>
+                <div class="property">
+                    <div class="carousel" data-index="0">
+                        <div class="carousel-images">
+                            <img src="/48ee780085342f473dc9244fac05756e-cc_ft_960.webp" alt="Family Home Image 1"
+                                class="active">
+                            <img src="/aebb3fdf23213fdf84b0f45b6d6aaa81-cc_ft_576.webp" alt="Family Home Image 2">
+                            <img src="/c99a84de55fe850c96bcd89297765586-cc_ft_960.webp" alt="Family Home Image 3">
+                        </div>
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
+
+                    <div class="property-details">
+                        <a href="#">
+                            <h3>Beautiful Family Home</h3>
+                        </a>
+                        <p>3 Beds • 2 Baths • 1,550 sqft</p>
+                        <p class="price">$450000</p>
+                    </div>
+
+                </div>
+                <div class="property">
+                    <div class="carousel" data-index="0">
+                        <div class="carousel-images">
+                            <img src="/48ee780085342f473dc9244fac05756e-cc_ft_960.webp" alt="Family Home Image 1"
+                                class="active">
+                            <img src="/aebb3fdf23213fdf84b0f45b6d6aaa81-cc_ft_576.webp" alt="Family Home Image 2">
+                            <img src="/c99a84de55fe850c96bcd89297765586-cc_ft_960.webp" alt="Family Home Image 3">
+                        </div>
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
+
+                    <div class="property-details">
+                        <a href="#">
+                            <h3>Beautiful Family Home</h3>
+                        </a>
+                        <p>3 Beds • 2 Baths • 1,550 sqft</p>
+                        <p class="price">$450000</p>
+                    </div>
+
+                </div>
+                <div class="property">
+                    <div class="carousel" data-index="0">
+                        <div class="carousel-images">
+                            <img src="/48ee780085342f473dc9244fac05756e-cc_ft_960.webp" alt="Family Home Image 1"
+                                class="active">
+                            <img src="/aebb3fdf23213fdf84b0f45b6d6aaa81-cc_ft_576.webp" alt="Family Home Image 2">
+                            <img src="/c99a84de55fe850c96bcd89297765586-cc_ft_960.webp" alt="Family Home Image 3">
+                        </div>
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
+
+                    <div class="property-details">
+                        <a href="#">
+                            <h3>Beautiful Family Home</h3>
+                        </a>
+                        <p>3 Beds • 2 Baths • 1,550 sqft</p>
+                        <p class="price">$450000</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="map-container" id="map">
+                <h2>property Map</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253682.63647986992!2d3.1191458148055795!3d6.548028244365821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdc9e87a367c3d9cb!2sLagos!5e0!3m2!1sen!2sng!4v1743123489457!5m2!1sen!2sng"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <div>
+            <p>&copy; 2025 KKHomeRealty. All rights reserved.</p>
+        </div>
+    </footer>
+    <script></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
